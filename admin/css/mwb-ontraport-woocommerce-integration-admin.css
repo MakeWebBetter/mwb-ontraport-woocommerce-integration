@@ -1,0 +1,971 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @import url(' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css');
+ @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+ .ontrawoo-main-template{
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+ }
+ .ontrawoo-main-template * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+ .ontrawoo-main-template img{
+  max-width: 100%;
+  width: auto;
+ }
+.ontrawoo-main-template p, .ontrawoo-main-template li {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.ontrawoo-button {
+  background-color: #1285ff;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  min-width: 180px;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid #1285ff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.ontrawoo-button-secondary {
+  background-color: #edab3a;
+  color: #ffffff;
+  border-color: #edab3a;
+}
+.ontrawoo-button.ontrawoo-small-button {
+  min-width: auto;
+  padding: 7px 20px;
+}
+.ontrawoo-button:hover, .ontrawoo-button:focus {
+  background-color: transparent;
+  color: #444444;
+  outline: 0;
+  box-shadow: none;
+}
+.ontrawoo-main-template {
+  padding: 20px 20px 20px 0;
+}
+a:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.ontrawoo_alert{
+  color: red;
+}
+.ontrawoo_select_two ~ .select2.select2-container.select2-container--default {
+  padding-right: 15px;
+}
+.ontrawoo_select_two ~ .select2.select2-container.select2-container--default {
+  padding-right: 15px;
+}
+.ontrawoo-sync-method {
+  margin-top: 25px;
+}
+.ontrawoo-sync-methods {
+  width: 100% !important;
+  margin-top: 10px;
+}
+.ontrawoo-abncart-timer input{
+  width: 100% !important;
+}
+.ontrawoo-action-field {
+  text-decoration: none;
+  background: #9B5C8F;
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+.ontrawoo-action-field:hover{
+  color: #ffffff;
+}
+.ontrawoo-ontraport-icon {
+  flex: 0 0 65%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left; 
+}
+.ontrawoo-header-text {
+  flex: 0 0 35%;
+  padding: 10px;
+  font-size: 25px;
+}
+.ontrawoo-ontraport-icon h2 {
+  display: inline-block;
+  margin: 0;
+}
+.ontrawoo-ontraport-icon img {
+  max-width: 140px;
+}
+.ontrawoo-header-text ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.ontrawoo-header-text ul li {
+  margin: 0;
+  display: inline-block;
+}
+.ontrawoo-header-text ul li a {
+  background-color: #edab3a;
+  padding: 4px 7px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 3px;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  min-width: 34px;
+}
+.ontrawoo-body-template {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ontrawoo-ocs-tabs .ontrawoo-new-tabs{
+  display: inline-block;
+}
+.ontrawoo-nav-tab {
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  background-color: #1285ff;
+  border: none !important;
+  position: relative;
+}
+.ontrawoo-lock::after {
+  position: absolute;
+  width: 31px;
+  right: 7px;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('../../admin/images/pro_tag.png');
+  height: 29px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ontrawoo-nav-tab i {
+  margin-right: 5px;
+}
+.ontrawoo-nav-tab:focus, .ontrawoo-nav-tab:hover {
+ color: #ffffff;
+ display: block;
+ background-color: #F77719;
+}
+.ontrawoo-navigator-template {
+  margin: 10px 0;
+  width: 20%;
+  background-color: #1285ff;
+}
+.ontrawoo-content-template {
+  padding: 20px 30px;
+  margin: 10px 0;
+  width: 80%;
+  background: #ffffff;
+  text-align: center;
+}
+.ontrawoo-sidebar{
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+.ontrawoo-overview-header{
+  text-align: center;
+}
+.ontrawoo-common-header h2, 
+.ontrawoo-connect-form h2, 
+.ontrawoo-connect-form-header h2 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 11px;
+}
+.ontrawoo-overview-container {
+  margin: 0 1% 20px 1%;
+  padding: 40px 20px;
+  box-shadow: 0 .5px 20px rgba(0,0,0,.15);
+  min-height: 100%;
+  position: relative;
+  width: 31.333%;
+  text-align: center;
+  background-color: #ffffff;
+}
+.ontrawoo-overview-footer{
+  text-align: center;
+  padding: 5px;
+}
+.ontrawoo-gs-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ontrawoo-gs-right, .ontrawoo-gs-left {
+  flex: 0 0 50%;
+}
+.ontrawoo-gs-right ul li {
+  margin-bottom: 10px;
+}
+.ontrawoo-gs-right {
+  text-align: left;
+  padding-right: 25px;
+}
+.ontrawoo-gs-left iframe {
+  width: 100%;
+  max-width: 100%;
+}
+.ontrawoo-gs-right ul li i {
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
+  background-color: #edab3a;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 7px;
+}
+.ontrawoo_pop_up_wrap {
+  background-color: rgba(0, 0, 0, 0.55);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.ontrawoo_pop_up_wrap p {
+  color: #232323;
+  font-size: 17px;
+  text-align: center;
+}
+.ontrawoo_pop_up_wrap .pop_up_sub_wrap {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  left: 0;
+  margin: 0 auto;
+  max-width: 450px;
+  min-height: 228px;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ontrawoo_pop_up_wrap .pop_up_sub_wrap .button_wrap {
+  margin-top: 35px;
+  text-align: center;
+}
+.ontrawoo_pop_up_wrap .pop_up_sub_wrap .button_wrap a {
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  padding: 10px; 
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto 15px;
+}
+.ontrawoo_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(1) {
+  background-color: #26488f;
+}
+.ontrawoo_pop_up_wrap .pop_up_sub_wrap .button_wrap a:nth-child(2) {
+  text-decoration: underline;
+  color: #252525;
+}
+.ontrawoo_oauth_span {
+  display: block;
+  margin: 10px 0;
+}
+.ontrawoo_rfm_settings input[type=number]{
+  width: 60px;
+}
+span.ontrawoo_oauth_span label {
+  background-color: #d9edf7 ;
+  border-left: 3px solid #0073aa ;
+  color: #31708f ;
+  display: inline-block;
+  line-height: 28px;
+  margin: -4px 0 0;
+  padding: 0 30px 0 15px;
+  position: relative;
+}
+span.ontrawoo_oauth_span label::after {
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #0073aa ;
+  border-top: 8px solid transparent;
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.popupwrap .ontrawoo-message-area, .ontrawoo-customer-message-area, .ontrawoo-subs-message-area{
+  /*max-height: 150px;*/
+  overflow-y: auto;
+}
+.ontrawoo-fields-select, .ontrawoo-fields-display, .ontrawoo-fields-created-list{
+  max-height: 500px;
+  overflow-y: auto;
+}
+.ontrawoo_rfm_settings{
+  overflow-y: auto;
+}
+.popupwrap .ontrawoo-message-area, .ontrawoo-customer-message-area, .ontrawoo-subs-message-area {
+  overflow: auto !important;
+  height: 250px !important;
+}
+.popupwrap {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  display: block;
+  left: 0;
+  opacity: 1;
+  padding: 30px;
+  position: relative;
+  right: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#ontrawoo-setup-process, #ontrawoo-subs-setup-process, #ontrawoo-customer-setup-process{
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.progress-bar {
+  background-color: #337ab7;
+  border-radius: 8px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+  color: #ffffff;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+  min-height: 24px;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+}
+.popupwrap > p {
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+}
+.progress {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 30px;
+}
+.ontrawoo table.form-table tbody tr:nth-child(2n) {
+  background: #e2e2e2 none repeat scroll 0 0;
+}
+.ontrawoo table.form-table tbody tr th {
+  padding-left: 10px;
+}
+.ontrawoo .ontrawoo-nav-tab-wrapper .nav-tab-active{
+  background: #fff;
+}
+#ontrawoo_loader.loading-style-bg img {
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+#ontrawoo_loader.loading-style-bg {
+  background-color: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2147483647;
+}
+.ontrawoo_rfm_settings table.wp-list-table td p span {
+  width: 80px;
+  display: inline-block;
+}
+.ontrawoo_rfm_settings table.wp-list-table tbody#the-list tr:nth-child(odd) {
+  background-color: #0077ad1a;
+}
+.ontrawoo_select_two ~ .select2.select2-container.select2-container--default{
+  width: 300px !important;
+}
+.ontrawoo_select_two ~ .select2.select2-container.select2-container--default{
+  width: 300px !important;
+}
+/*21-6-2018*/
+/*========================================
+=            overview-section            =
+========================================*/
+.ontrawoo-header-template:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+.ontrawoo-body-template:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+.ontrawoo-header-template {
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ontrawoo-overview-body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.ontrawoo-overview-container h4 {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.ontrawoo-overview-container .ontrawoo-anchors {
+  color: #9B5C8F;
+  margin: 0;
+}
+.ontrawoo-desc-num {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  background: #edab3a;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto !important;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 40px !important;
+  font-size: 20px !important;
+}
+.ontrawoo-overview-footer-content-2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.ontrawoo-new-tabs a.nav-tab-active{
+  background-color: #F77719;
+  color:#FFF;
+}
+.ontrawoo-overview-footer-content-2 img{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.ontrawoo-nav-tab:focus, .ontrawoo-nav-tab:hover, .ontrawoo-nav-tab.nav-tab-active {
+  color: #ffffff;
+  display: block;
+  background-color: #edab3a;
+  outline: 0;
+  box-shadow: none;
+  text-shadow: none;
+}
+.ontrawoo-main-template h2{
+  color: #444444;
+  line-height: 33px;
+}
+
+/*=====  End of overview-section  ======*/
+/*=======================================
+=            connect-section            =
+=======================================*/
+.ontrawoo-connection {
+  display: inline-block;
+  margin: 30px;
+  padding: 20px 8px;
+  box-shadow: 2px 2px 10px #bababa;
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  vertical-align: top;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.ontrawoo-connection .ontrawoo-connection-label,
+.ontrawoo-connection .ontrawoo-acc-email-label,
+.ontrawoo-connection .ontrawoo-token-expiry-label {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #9B5C8F;
+}
+.ontrawoo-connection .ontrawoo-connection-status-text{
+  font-size: 11px;
+}
+/*=====  End of connect-section  ======*/
+.ontrawoo-fields-header h2{
+  font-size: 25px;
+}
+.ontrawoo-disabled {
+  width: 100%;
+  background-color: #225993;
+  cursor: not-allowed;
+  color: rgba(255,255,255,0.4);
+}
+.ontrawoo-connection-container label {
+  font-size: 16px;
+}
+.ontrawoo-connection-container input {
+  height: 45px;
+  margin-bottom: 19px;
+  margin-left: 25px;
+}
+.ontrawoo-connection-container input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+}
+.ontrawoo_oauth_span {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* display: block; */
+}
+.ontrawoo-content-container .notice.notice-success.is-dismissible{
+  box-shadow: 2px 2px 11px #cecece;
+  color: #46B450;
+  font-weight: bold;
+}
+.ontrawoo-content-container .notice.error {
+  box-shadow: 2px 2px 11px #cecece;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.ontrawoo-overview-footer-content-1.ontrawoo-footer-container {
+  background: #efefef;
+  padding: 15px;
+  margin: 20px;
+}
+.ontrawoo-overview-footer-content-1.ontrawoo-footer-container p {
+  color: #2D1665;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+#otrawoo-contact-record .ontrawoo-order-status label,
+#otrawoo-sales-record .ontrawoo-order-status label,
+#otrawoo-tag-record .ontrawoo-order-status label {
+  width: 180px;
+  display: inline-block;
+}
+.ontrawoo-general-settings {
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 2px 2px 11px #bababa;
+  margin: 20px 0;
+}
+#ontrawoo-free-select-product ~ .select2.select2-container {
+  width: 100% !important;
+  max-width: 310px !important;
+}
+#ontrawoo-free-select-product ~ .select2.select2-container .select2-selection {
+  border: solid 1px #c5c5c5;
+}
+.ontrawoo-general-settings label{
+  font-size: 14px;
+}
+.ontrawoo-order-status {
+  margin-bottom: 15px;
+}
+.ontrawoo-general-settings h2{
+  margin-bottom: 30px;
+}
+.ontrawoo-general-settings .ontrawoo-fields-header h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.ontrawoo-general-settings .submit {
+  padding: 0px 0px;
+}
+.ontrawoo-general-settings .ontrawoo_table table {
+  width: 100%;
+}
+.ontrawoo-general-settings .ontrawoo_table table thead tr th {
+  background-color: #d8d8d8;
+  padding: 8px 20px;
+  width: 50%;
+}
+.ontrawoo-general-settings .ontrawoo_table table tbody tr td {
+  padding: 8px 20px;
+}
+.ontrawoo-general-settings .ontrawoo_table table tbody tr td .select2.select2-container {
+  width: 100% !important;
+}
+.ontrawoo-ocs-template .ontrawoo-field-information .ontrawoo-field-sucess {
+  font-weight: 600;
+  color: #000;
+}
+.ontrawoo-general-settings .ontrawoo_table #ontrawoo_new_row_sequence,
+.ontrawoo-general-settings .ontrawoo_table #ontrawoo_new_row {
+  text-align: center;
+  margin: 10px 0px;
+}
+.ontrawoo-general-settings .ontrawoo_table #ontrawoo_new_row_sequence #ontrawoo-add-new-row-sequence,
+.ontrawoo-general-settings .ontrawoo_table #ontrawoo_new_row #ontrawoo-add-new-row-campaign {
+  background-color: #0085ba;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+/*=========================================
+=            licencing-section            =
+=========================================*/
+.ontrawoo-license-form-header h2{
+  font-size: 25px;
+}
+.ontrawoo-license,.ontrawoo-license-form-submit p{
+  text-align: center;
+}
+.ontrawoo-license{
+ padding: 10px;
+ margin: 10px; 
+}
+.ontrawoo-license-container {
+  background: #efefef;
+  margin: 25px;
+  padding: 20px;
+}
+.ontrawoo-license-form-desc {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9B5C8F;
+}
+#ontrawoo_license_key {
+  height: 40px;
+}
+.ontrawoo-license-container label {
+  font-size: 16px;
+}
+/*=====  End of licencing-section  ======*/
+.ontrawoo-license-form-submit p{
+  text-align: center;
+}
+.ontrawoo-main-template * {
+  box-sizing: border-box;
+}
+/*======================================
+=            one-click-sync            =
+======================================*/
+#ontrawoo-ocs-form table tr th {
+  padding: 20px !important;
+  background: #fff;
+}
+#ontrawoo-ocs-form table {
+  width: 65%;
+  margin: 0 auto;
+  background: #efefef;
+  border: 1px solid #bababa;
+}
+#ontrawoo-ocs-form table tr{
+  border: 1px solid #bababa;
+}
+#ontrawoo-ocs-form .submit{
+  text-align: center !important;
+}
+/*=====  End of one-click-sync  ======*/
+/*=======================================
+=            connect-section            =
+=======================================*/
+.ontrawoo-connect-form table tr th{
+  padding: 20px !important;
+  background: #ffffff;
+}
+.ontrawoo-connect-form table tr td{
+  text-align: left;
+  padding: 10px;
+}
+.ontrawoo-connect-form input{
+  margin-bottom: 0 !important;
+  margin-left: 0 !important
+}
+.ontrawoo-connect-form table{
+  background: #efefef;
+  border: 1px solid #bababa;
+}
+.ontrawoo-connect-form table tr{
+  border: 1px solid #bababa;
+}
+.ontrawoo-connect-form .submit{
+  text-align: center !important;
+}
+/*=====  End of connect-section  ======*/
+/*=======================================
+=            error-section            =
+=======================================*/
+.ontrawoo-extn-status p {
+  background: #edab3a;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+}
+.ontrawoo-error-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: -1%;
+  margin-left: -1%;
+}
+.ontrawoo-error {
+  margin: 20px 1%;
+  padding: 10px 8px;
+  box-shadow: 2px 2px 10px #bababa;
+  width: 31.333%;
+  position: relative;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+}
+.ontrawoo-general-settings h3 {
+  margin-top: 0;
+}
+.ontrawoo-error:first-child {
+  border-color: #1285ff;
+}
+.ontrawoo-error:nth-child(2) {
+  border-color: #129912;
+}
+.ontrawoo-error:last-child {
+  border-color: #fb0909;
+}
+.ontrawoo-error .ontrawoo-total-calls{
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: blue;
+}
+.ontrawoo-error .ontrawoo-success-calls{
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: green;
+}
+.ontrawoo-error .ontrawoo-failed-calls{
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: red;
+}
+.ontrawoo-error .ontrawoo-error-text{
+  font-size: 20px;
+}
+/*=====  End of error-section  ======*/
+.ui-datepicker-next.ui-corner-all {
+  position: relative;
+}
+.ui-datepicker-next.ui-corner-all::after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 3px;
+  background: #352e2e;
+  transform: rotate(44deg);
+  top: 8px;
+  border-radius: 10px;
+  right: 6px;
+}
+.ui-datepicker-next.ui-corner-all::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 3px;
+  background: #352e2e;
+  transform: rotate(-40deg);
+  top: 17px;
+  border-radius: 10px;
+  right: 6px;
+}
+.ui-datepicker-prev.ui-corner-all {
+  position: relative;
+}
+.ui-datepicker-prev.ui-corner-all::after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 3px;
+  background: #352e2e;
+  transform: rotate(-44deg);
+  top: 8px;
+  border-radius: 10px;
+  right: 6px;
+}
+.ui-datepicker-prev.ui-corner-all::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 3px;
+  background: #352e2e;
+  transform: rotate(40deg);
+  top: 17px;
+  border-radius: 10px;
+  right: 6px;
+}
+.ontrawoo_remove_row, .ontrawoo_delete_row, .ontrawoo_remove_row_sequence, .ontrawoo_delete_row_sequence{
+  background-color: #ba1a00;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.ontrawoo-content-container input[type="radio"], input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+.ontrawoowoo_get_started{
+  overflow-y: auto;
+}
+#ontrawoowoo_get_started {
+width: 100%;
+border-collapse: collapse;
+}
+
+#ontrawoowoo_get_started td, #ontrawoowoo_get_started th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+
+}
+.mauwoo-field-checked {
+width: 20px;
+overflow: hidden;
+margin: 0 auto;
+}
+.mauwoo-field-checked img {
+max-width: 100%;
+width: auto;
+}
+#ontrawoowoo_get_started tr:nth-child(even){background-color: #f2f2f2;}
+
+#ontrawoowoo_get_started tr:hover {background-color: #ddd;}
+
+#ontrawoowoo_get_started th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #edab3a;
+  color: white;
+
+}
+.ontrawoo_integration_loader{
+  display:none;
+}
+.ontrawoo_integration_scroll_image{
+  width: 70%;
+}
+.ontrawoo_integration_display_notice{
+  margin:15px;
+}
+/*===================================
+=            media-query            =
+===================================*/
+@media only screen and (max-width: 767px){
+  #ontrawoo-ocs-form table, .ontrawoo-error {
+    width: 100%;
+  }
+  .ontrawoo-header-text ul {
+    justify-content: center;
+  }
+  .ontrawoo-gs-right {
+    padding-right: 0;
+  }
+  .ontrawoo-gs-right, .ontrawoo-gs-left {
+    flex: 0 0 100%;
+  }
+  .ontrawoo-ontraport-icon {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .ontrawoo-ontraport-icon, .ontrawoo-header-text {
+    flex: 0 0 100%;
+  }
+}
+@media only screen and (max-width: 650px){
+  .ontrawoo-navigator-template {
+    width: 18%;
+  }
+  .ontrawoo-content-template {
+    width: 82%;
+    padding: 20px;
+  }
+  .ontrawoo-nav-tab {
+    text-align: center;
+    font-size: 20px;
+  }
+  .ontrawoo-nav-tab span {
+    display: none;
+  }
+  .ontrawoo-overview-container {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+  .ontrawoo-lock::after {
+    width: 23px;
+    right: -10px;
+    height: 28px;
+  }
+  .ontrawoo-general-settings {
+    padding: 25px 10px;
+  }
+}
+
+.ontrawoo-error-log-head {
+  margin-top: 25px;
+}
+
+.ontrawoo-error-log-head a.ontrawoo-button {
+  margin-right: 20px;
+}
+
+#log-viewer {
+  text-align: left;
+  max-height: 340px;
+  overflow-y: auto;
+  width: 100% ;
+  margin-top: 20px;
+}
+#log-viewer pre {
+  word-break: break-all;
+}
+
+/*=====  End of media-query  ======*/
